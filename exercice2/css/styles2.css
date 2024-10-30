@@ -1,0 +1,42 @@
+.puzzle{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 250px 250px 250px 400px;
+    grid-template-areas:
+    "one one two three"
+    "four five five three "
+    "six seven eight eight"
+    "six nine nine ten"
+    ;
+}
+
+#piece01{
+    grid-area: one;
+}
+#piece02{
+    grid-area: two;
+}
+#piece03{
+    grid-area: three;
+}
+#piece04{
+    grid-area: four;
+}
+#piece05{
+    grid-area: five;
+}
+#piece06{
+    grid-area: six;
+}
+#piece07{
+    grid-area: seven;
+}
+#piece08{
+    grid-area: eight;
+}
+#piece09{
+    grid-area: nine;
+}
+#piece10{
+    grid-area: ten
+}

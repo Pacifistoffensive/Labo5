@@ -1,0 +1,59 @@
+#grille {
+    background-color: white;
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr ;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+grid-gap: 3px;
+ width: 500px;
+    grid-template-areas: 
+    "head head head head"
+    "navi navi navi navi"
+    "asid maine maine maine"
+    "asid maine maine maine"
+    "asid maine maine maine"
+    "foot foot foot foot"
+    ;
+    
+}
+
+header {
+    grid-area: head;
+    background-color: turquoise;
+    text-align: center;
+    padding: 15px;
+    height: 50px;
+    
+}
+main {
+    grid-area: maine;
+    background-color: turquoise;
+    text-align: left;
+    padding-left: 20px;
+   
+  
+ 
+    
+
+}
+nav{
+    background-color: turquoise;
+    grid-area: navi;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}
+footer{
+    grid-area: foot;
+    background-color: turquoise;
+    text-align: left;
+    padding: 20px
+}
+aside{
+    grid-area:asid;
+    background-color: turquoise;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 15px;
+    
+}

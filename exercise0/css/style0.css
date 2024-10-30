@@ -1,0 +1,56 @@
+.grille1 {
+    background-color: black;
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 2px;
+    width: 30%;
+    height: 90%;
+    
+}
+
+.cellule{
+   
+   
+    width: 99%; 
+    height: 90%;
+    background-color: palegreen;
+    text-align: center;
+    color: black;
+    padding: 1px;
+   
+}
+.cellule:nth-child(even){
+    background-color: palegreen;
+}
+.cellule:nth-child(odd){
+    background-color: palevioletred;
+}
+
+.grille2 {
+    background-color: black;
+    display: grid;
+grid-template-columns: 0.5fr 1fr 2fr;
+row-gap: 2px;
+column-gap: 2PX;
+    width: 30%;
+    height: 90%;
+    
+}
+
+
+.grille3 {
+    background-color: white;
+    display: grid;
+grid-template-columns: 0.5fr 1fr 2fr;
+grid-template-rows: 80px 20px 80px;
+grid-gap: 2px;
+    width: 30%;
+    height: 90%;
+    
+}
+
+
+
+.space{
+ color: white;
+}
